@@ -7,7 +7,8 @@ Graphical explorer for RenPy Archives. This tool brings ability to extract, crea
 This is a fan made application and there is no guarantee of further development or fixes. For video support LibVLC library is used and this library has ~300MiB in size so this is the reason why this application is so big, I haven't found a better way around this yet.
 
 - [ ] TODO: Perhaps search for LibVLC, and if it can't be found, ask the user if they want to download it?
-- [ ] TODO: Add Monaco and RenPy LSP integration for the text viewer
+- [ ] TODO: Add [Monaco](https://microsoft.github.io/monaco-editor/) integration for the text viewer
+- [ ] TODO: Add syntax highlighting via [RenPy VSC Language](https://github.com/renpy/vscode-language-renpy), or just the syntax highlighting and folding, anyway. the entire language server is probably overkill for viewing... 
 - [ ] TODO: Create a real preferences page
 - [ ] TODO: Automate Unrpyc integration (1.3.2 for RenPy <= v7, 2.0.3 for RenPy == v8). Check for Python installation first, then ask user if they'd like to integrate Unrpyc. Download from Github repo if so.
 - [ ] TODO: This is probably way overboard, but perhaps add a tab with a file map, i.e. script.rpy uses files contained in \images\GUI, and jumps to a section defined in script2.rpy. script2.rpy includes (etc.). 
